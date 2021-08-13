@@ -1,0 +1,241 @@
+/*region Resume*/
+body{
+    background-image: url(Photos/wallet-3200395_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.div-body{
+    border-left: 5px solid rgba(40, 85, 170, 0.747);
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 80%;
+    margin: 0 0 0 20px;
+}
+
+.div-body-head{
+    margin-bottom: 13px;
+}
+
+.div-body-p{
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.div-container{
+    background: rgba(255, 255, 255, 0.856);
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.div-container-head{
+    background: rgba(255, 255, 255, 0.856);
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.div-main{
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.div-element{
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.div-element::before{
+    content: "";
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    background-color: rgb(21, 145, 202);
+    border-radius: 50%;
+}
+
+.div-head h4{
+    margin: 0 0 0 30px;
+    color: rgb(21, 145, 202);
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0.288);
+    background-position: 0% 0%;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.first-row{
+    height: 69px;
+    width: 50%;
+}
+
+.glory{
+    background: rgb(75, 186, 230);
+    color: white;
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+}
+
+.glory-skills{
+    background: rgb(75, 186, 230);
+    color: white;
+    display: inline-block;
+    border-radius: 5%;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+}
+
+.my-name{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+    text-transform: uppercase;
+    height: 69px;
+    text-decoration: rgb(31, 170, 224) 2px underline;
+    text-underline-position: under;
+}
+
+.my-email{
+    margin: 0;
+    text-align: right;
+}
+
+.my-email a{
+    text-decoration: none;
+    color: rgb(21, 145, 202);
+}
+
+.my-github{
+    text-decoration: none;
+    color: rgb(21, 145, 202);
+}
+
+.navi{
+    top: 0;
+    padding: 10px 0 30px 0;
+    position: sticky;
+}
+
+.navi nav{
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.829);
+    height: 50px;
+}
+
+.navi nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.navi nav ul a{
+    font-size: 17px;
+    display: inline-block;
+    margin-right: -4.5px;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+.navi nav ul a:hover{
+    background: rgb(207, 207, 207);
+    color: white;
+}
+  
+.active{
+    background-color: rgb(75, 186, 230);
+    color: white;
+}
+
+.resume{
+    width: 70%; 
+    margin: auto;
+}
+
+.resume-head{
+    background: rgba(255, 255, 255, 0.863);
+    border-bottom: 2px solid rgb(21, 145, 202);
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.resume-head h1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 12px;
+}
+
+/*Responsive Rules*/
+
+@media screen and (max-width: 1080px){
+    .div-container-head{
+        display: block;
+    }
+
+    .div-container{
+        display: block;
+    }
+
+    .my-email{
+        margin: 0;
+        text-align: left;
+    }
+
+    .first-row{
+        height: 52px;
+        width: 100%;
+    }
+
+    .div-main{
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .resume{
+        width: 90%;
+    }
+    body{
+        background-position-x: -100px;
+    }
+}
+
+@media screen and (max-width: 1009px)
+{
+    body{
+        background-size: cover;
+    }
+
+    footer{
+        color: black;
+    }
+}
